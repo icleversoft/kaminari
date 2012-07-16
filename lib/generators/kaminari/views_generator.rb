@@ -1,7 +1,7 @@
 module Kaminari
   module Generators
-    SHOW_API = 'http://github.com/api/v2/json/blob/show/amatsuda/kaminari_themes'
-    ALL_API  = 'http://github.com/api/v2/json/blob/all/amatsuda/kaminari_themes/master'
+    SHOW_API = 'http://github.com/amatsuda/kaminari_themes'
+    ALL_API  = 'http://github.com/amatsuda/kaminari_themes/master'
 
     class ViewsGenerator < Rails::Generators::NamedBase
       source_root File.expand_path('../../../../app/views/kaminari', __FILE__)
